@@ -1,0 +1,35 @@
+#include<stdio.h>
+main()
+{
+	int num;
+	printf("ENTER NUMBER[1-100]:");
+	scanf("%d",&num);
+	if(num>90)
+	{
+		printf("A");
+	}
+	else
+	{
+		if(num>79)
+		{
+			printf("B");
+		}
+		else
+		{
+			if(num>69)
+			{
+			printf("C");
+			}
+			else{
+				if(num>59)
+				{
+					printf("D");
+				}
+                else
+				{
+					printf("E");
+				}				
+			}
+		}
+	}
+}
